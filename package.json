@@ -5,7 +5,7 @@
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
-		"dev": "wrangler dev --var DEEPSEEK_API_KEY:sk-48ef9b1101184c2bb19ce2d69f8ba848",
+		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest"
 	},
