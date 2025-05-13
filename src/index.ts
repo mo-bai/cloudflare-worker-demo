@@ -19,6 +19,7 @@ export interface Env {
 const yoga = createYoga<Env>({
 	schema: schema,
 	graphiql: (request, env) => {
+		console.log('Request env:', env);
 		return env.ENVIRONMENT !== 'production';
 	},
 });
